@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> 
+        <link rel="stylesheet" href="Bmi.css"> 
+        <title></title>
+</head>
+
+<body>
+<div class="container">
+  <div class="settings">
+   <h4 class="app-title">Bmi Calculator</h4>  
+   
+ <div class="height">
+    <p>Height</p>     
+   <h4>175<span> cm</span></h4>
+   <input type="range" class="height-range-slider" min="100" max="250">
+ </div>  
+ 
+<div class="weight">
+   <p>Weight</p>   
+   <h4>65<span> kg</span></h4>
+   <input type="range" class="weight-range-slider" min="20" max="200">
+</div>
+
+<button class="calculate-btn">Calculate your bmi</button>
+</div>  
+
+<div class="result">
+  <h3>Your Result</h3>  
+  <div class="final-result">
+     <p class="health-status">Normal Weight</p>    
+     <h3 class="bmi">23.8</h3>
+     <p class="n_b_r_text">Normal Bmi Range</p>
+     <p class="normal-range">18.5 - 25kg/m2</p>
+     <p class="range">You are in the normal weight range.</p>
+     <button class="go-back-btn">Go Back</button>
+  </div>
+</div>
+</div>
+<script src="Bmi.js"></script>  
+</body>
+
+</html>
+
